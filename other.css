@@ -1,0 +1,191 @@
+
+
+
+  body {
+
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-color: #F4F3EE;
+    font-family: 'Poppins', sans-serif;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+  
+  #menu {
+    z-index: 2;
+  }
+  
+   #menu-bar  /*this is the hamburgermenu */{
+    width: 40px;
+    height: 40px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+  }
+  
+  .bar /*this is the hamburgermenu */{
+    height: 5px;
+    width: 100%;
+    background-color: grey;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  #bar1 {
+    transform: translateY(-4px);
+  }
+  
+  #bar3 {
+    transform: translateY(4px);
+  }
+  
+  .nav {
+    transition: 0.3s ease;
+    display: none;
+  }
+  
+  .nav ul {
+    padding: 0 22px;
+  }
+  
+  .nav li {
+    list-style: none;
+    padding: 12px 0;
+  }
+  
+  .nav li a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    font-weight: bold;
+  }
+  
+  .menu-bg, #menu {
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  
+  .menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle, grey, grey);
+    border-radius: 40%;
+    transition: 0.3s ease;
+  }
+  
+  .change {
+    display: block;
+  }
+  
+  .change .bar {
+    background-color: white;
+  }
+  
+  .change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+  }
+  
+  .change #bar2 {
+    opacity: 0;
+  }
+  
+  .change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+  }
+  
+  .change-bg {
+    width: 400px;
+    height: 330px;
+    transform: translate(-60%,-30%);
+  }
+
+  .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13, .image14, .image15, .image16, .image17 {
+      width: 900px;
+      height: 600px;
+      margin: 50px;
+      
+      background-color: white;
+      margin-left: 215px;
+  }
+
+  
+
+  .textile1{
+    width: 900px;
+    height: 600px;
+     
+     
+        
+
+  }
+.other2  {
+
+    width: 900px;
+    height: 600px;
+      
+    
+  }
+  
+.other2, .other3, .other4, .other5, .other6, .other7, .other8
+{
+
+    width: 900px;
+    height: 600px;
+      
+    
+  }
+  .start{
+      color: white;
+  }
+  /* body {
+    display: grid;
+    
+  } */
+  
+  .top {
+    --offset: 50px; 
+    
+    position: sticky;
+    bottom: 20px;      
+    margin-right:10px; 
+    place-self: end;
+    margin-top: calc(100vh + var(--offset));
+    
+    /* visual styling */
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: grey;
+    border-radius: 100px;
+    white-space: nowrap;
+    margin-left: 93%;
+    
+  }
+
+
+  
+  
+  
+  /* remove the below if you don't want smooth scrolling */
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+
+
+
+ 
