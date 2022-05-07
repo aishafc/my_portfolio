@@ -87,10 +87,10 @@ function movingTextile(){
         document.getElementById('imageChange').src = 'orangebag.jpg'
          document.getElementById('imageChange').style.width='270px'
 
-        document.getElementById('imageChange2').src = 'redyellowpillow.jpg' 
+        document.getElementById('imageChange2').src = 'redyellowpillow.JPG' 
          document.getElementById('imageChange2').style.width='285px'
 
-        document.getElementById('imageChange3').src = 'lamp.jpg'
+        document.getElementById('imageChange3').src = 'lamp.JPG'
         document.getElementById('imageChange3').style.width='280px'
 
         document.getElementById('href').href = 'textile.html'
@@ -306,7 +306,7 @@ function movingOtherWorks(){
         document.getElementById('imageChange2').src = 'aishaframptonclerk-folly.jpg'
         document.getElementById('imageChange2').style.width='400px'
        
-        document.getElementById('imageChange3').src = 'waterbottle.jpg'
+        document.getElementById('imageChange3').src = 'waterbottle.JPG'
         document.getElementById('imageChange3').style.width='200px'
 
         document.getElementById('href').href = 'other.html'
