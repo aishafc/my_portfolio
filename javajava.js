@@ -300,7 +300,7 @@ function movingOtherWorks(){
         document.getElementById('textiletitle').style.zIndex = '0'
         document.getElementById('uxtitle').style.zIndex = '0'
         clearInterval(id)
-        document.getElementById('highlighttext').innerHTML="A mixture of paintings, sketching and minature making. Here I explore mediums and "
+        document.getElementById('highlighttext').innerHTML="A mixture of paintings, sketching and minature model making."
         document.getElementById('imageChange').src = 'minature.jpg'
         document.getElementById('imageChange').style.width='380px'
         
