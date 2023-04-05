@@ -150,6 +150,7 @@ function movingArchitecture(){
 
     } else {
         document.getElementById('textiletitle').style.zIndex = '0'
+        document.getElementById('uxtitle').style.zIndex = '0'
         
         clearInterval(id2)
         document.getElementById('highlighttext').innerHTML="A selection of 3D models sketches and ideation from my time studying for my Foundation Diploma at UAL"
