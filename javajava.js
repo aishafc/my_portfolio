@@ -222,13 +222,14 @@ function movingUx(){
         document.getElementById('othertitle').style.zIndex = '0'
         clearInterval(id)
 
-        document.getElementById('highlighttext').innerHTML="The beginning of my UX design exploration, here I document my expirimentation for personal projects."
+        document.getElementById('highlighttext').innerHTML="The beginning of my UX design exploration, here I document my experimentation for personal projects."
         document.getElementById('imageChange').src = 'ux1.1.jpg'
         document.getElementById('imageChange').style.width='400px'
         
         document.getElementById('imageChange2').src = 'ux2.jpg'
         
         document.getElementById('imageChange3').src = "ux3.jpg"
+        document.getElementById('imageChange3').style.width = '350'
         
 
         document.getElementById('href').href = 'ux.html'
